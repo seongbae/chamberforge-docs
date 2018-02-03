@@ -1,0 +1,10 @@
+site_name: ChamberForge
+pages:
+- Home: index.md
+- Quickstart: quickstart-guide.md
+- Reporting: reporting.md
+theme: 
+  name: readthedocs
+  custom_dir: mkdocs-rtd-lightbox
+markdown_extensions:
+  - extra
