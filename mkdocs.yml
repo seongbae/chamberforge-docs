@@ -2,6 +2,14 @@ site_name: ChamberForge
 pages:
 - Home: index.md
 - Quickstart: quickstart-guide.md
+- Organization: organization.md
+- Groups: group.md
+- Members: member.md
+- Meeting: meeting.md
+- Guests: guest.md
+- Referrals: referral.md
+- 1-to-1s: one-to-one.md
+- Business Closed: business-closed.md
 - Reporting: reporting.md
 theme: 
   name: readthedocs

@@ -31,12 +31,6 @@ The Activity report is similar to the Members report but only shows total activi
 
 ![Activity report](images/rp-03-activity-report.png)
 
-## Attendance Report
-
-Attendance report shows member attendances during a given period of time.  P denotes member was present at the meeting and S denotes substitute attendance.  No letter (--) indicates not present at the meeting.
-
-![Activity report](images/rp-04-attendance-report.png)
-
 ## Scheduled Report
 
 The Scheduled report allows users to have the reports sent out in email periodically.  You can schedule monthly, quarterly, semi-annually, and annually.  If set monthly, a report will go out on 1st of every month.  If set quarterly, it will go out on 1st of April (for January to March), 1st of July (for April to June), etc.
@@ -55,4 +49,4 @@ To set up a schedule report, go to the group settings by clicking on the gear ic
 * Message - body to be included in email
 * Enable schedule report - you can turn on or off the schedule report by checking here
 
-![Scheduled report](images/rp-05-scheduled-report.png)
+![Scheduled report](images/rp-04-scheduled-report.png)

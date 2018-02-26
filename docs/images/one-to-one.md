@@ -1,4 +1,4 @@
-# Reporting
+# Manage Organization
 
 In addition to simple reporting available from each group's dashboard screen, ChamberForge allows users to generate more advanced reports.  The reports help group organizers and association staff members to quickly see how their group is doing.
 
@@ -11,33 +11,17 @@ You can generate reports to quickly find out:
 * Are the members meeting their goals?  
 * Where do we need to focus more on as group leader or staff member?
 
-## Generating Reports
+## Create Organization
 
 To generate reports, click on "Reports" on the left menu.  Enter the date period and select a type of report.  At the time of writing this documentation, two reports are available: Members report and Activity report.
 
-## Members Report
-
-The Members report shows all the members in the group and their activities during given period.  The activities include guests invited, 1-to-1 meetings had, and leads gave to others in the group.  The initial report will give sum of all those three categories for each member, but you can filter out any categories by clicking on the legends.
-
-If you scroll down, you can also see a table that shows number of items for each category for all the members.  You can also sort the table by clicking on each column header.
-
-![Members report](images/rp-01-members-report.png)
-
-![Members report table](images/rp-02-members-report-table.png)
-
-## Activity Report
+## Create Groups
 
 The Activity report is similar to the Members report but only shows total activities over period of time without showing members' name.  
 
 ![Activity report](images/rp-03-activity-report.png)
 
-## Attendance Report
-
-Attendance report shows member attendances during a given period of time.  P denotes member was present at the meeting and S denotes substitute attendance.  No letter (--) indicates not present at the meeting.
-
-![Activity report](images/rp-04-attendance-report.png)
-
-## Scheduled Report
+## Update Industry
 
 The Scheduled report allows users to have the reports sent out in email periodically.  You can schedule monthly, quarterly, semi-annually, and annually.  If set monthly, a report will go out on 1st of every month.  If set quarterly, it will go out on 1st of April (for January to March), 1st of July (for April to June), etc.
 
@@ -55,4 +39,21 @@ To set up a schedule report, go to the group settings by clicking on the gear ic
 * Message - body to be included in email
 * Enable schedule report - you can turn on or off the schedule report by checking here
 
-![Scheduled report](images/rp-05-scheduled-report.png)
+![Scheduled report](images/rp-04-scheduled-report.png)
+
+## Add Users
+
+The Activity report is similar to the Members report but only shows total activities over period of time without showing members' name.  
+
+![Activity report](images/rp-03-activity-report.png)
+
+## Branding Organization
+
+The Members report shows all the members in the group and their activities during given period.  The activities include guests invited, 1-to-1 meetings had, and leads gave to others in the group.  The initial report will give sum of all those three categories for each member, but you can filter out any categories by clicking on the legends.
+
+If you scroll down, you can also see a table that shows number of items for each category for all the members.  You can also sort the table by clicking on each column header.
+
+![Members report](images/rp-01-members-report.png)
+
+![Members report table](images/rp-02-members-report-table.png)
+
