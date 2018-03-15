@@ -5,47 +5,58 @@ In addition to simple reporting available from each group's dashboard screen, Ch
 
 ## Create Organization
 
-To generate reports, click on "Reports" on the left menu.  Enter the date period and select a type of report.  At the time of writing this documentation, two reports are available: Members report and Activity report.
+You can create an organization from your home screen after logging in.  Click on "Create new organization" button and give it a name.
 
 ## Create Groups
 
-The Activity report is similar to the Members report but only shows total activities over period of time without showing members' name.  
+You can create groups - lead sharing groups or committees - within your organization by going to the organization settings page.  Click on the 3-gears icon on upper left corner to go into the organization settings page.
 
-![Activity report](images/rp-03-activity-report.png)
+From here, you can click on the Groups tab and click "Add New" button to create a group.
+
+* Group name - name of your group
+* Type - choose from lead sharing group or committee
+* Organization - select the organization this group belongs to
+
+The difference between a lead sharing group and committee group type is a lead sharing group will allow you to track referrals, 1-to-1 meetings, and business closed.  A committee group does not have those but allows you to assign and track tasks.  Both group types allow you to manage members, guests, and meetings.
 
 ## Update Industry
 
-The Scheduled report allows users to have the reports sent out in email periodically.  You can schedule monthly, quarterly, semi-annually, and annually.  If set monthly, a report will go out on 1st of every month.  If set quarterly, it will go out on 1st of April (for January to March), 1st of July (for April to June), etc.
+When adding members and guests to a group, one of the fields is industry.  If you don't configure the Industry list, then you won't see any values under the Industry field dropdown as you add members and guests.
 
-The report will be generated in PDF format and included in an email as an attachment.
+Industry is also used for reports.  So it is important that you configure and manage the Industry list properly.
 
-You can have the scheduled report sent out to all members of a group, or you can add additional emails to have report sent out to those outside ChamberForge.  Or you can do both.
+Depending on how your group is managed, you may or may not be able to edit the Industry list.  For example, if you manage your own group and your group does not belong to any organization, then you can manage the Industry list yourself.  If, on the other hand, your group belongs to an organzation, then the organization administrator is configures the Industry list for the entire orgnaization and group managers may not be able to change it.
 
-To set up a schedule report, go to the group settings by clicking on the gear icon on top left menu.  Then click on the Scheduled Reports tab. Following describe what each field does:
+To configure the Industry list, click on the Industry tab and then Add Industry button.  Once a window comes up, enter industry one per line.  When done, click on Save and close the window.
 
-* To All Members - if this is checked, then all members of the group will receive the report
-* Additional Recipients - you can specify additional emails here if you want the report to be sent out to those not in the group
-* Frequency - you can set how often the report will go out
-* Subject - email subject
-* Attachment - select which type of report to automatically generate
-* Message - body to be included in email
-* Enable schedule report - you can turn on or off the schedule report by checking here
+![Industry list](images/gr-05-add-industry.png)
 
-![Scheduled report](images/rp-04-scheduled-report.png)
+## Adding Users
 
-## Add Users
+To add other users to your organization, follow these steps:
 
-The Activity report is similar to the Members report but only shows total activities over period of time without showing members' name.  
+###1. Click on the 3-gears icon on upper left corner.
 
-![Activity report](images/rp-03-activity-report.png)
+![Click on gear icon](images/org-20-adding-user-click-gear-icon.png)
 
-## Branding Organization
+###2. Go to the Users tab in your organization settings page. Click "Add New".
 
-The Members report shows all the members in the group and their activities during given period.  The activities include guests invited, 1-to-1 meetings had, and leads gave to others in the group.  The initial report will give sum of all those three categories for each member, but you can filter out any categories by clicking on the legends.
+![Click on users tab](images/org-20-adding-user-users-tab.png)
 
-If you scroll down, you can also see a table that shows number of items for each category for all the members.  You can also sort the table by clicking on each column header.
+###3. Search for the user with email to see if the user is already on ChamberForge.
 
-![Members report](images/rp-01-members-report.png)
+###4. If no user with given email is found, click on "Add New" to create a new user.
 
-![Members report table](images/rp-02-members-report-table.png)
+![Add user details](images/org-20-adding-user-add-user-details.png)
 
+###5. If user is found, click on "Add [Name of User]"
+
+![User found](images/org-20-adding-user-user-found.png)
+
+###6. When creating a new user, you can assign groups that the user should belong to.
+
+![Add user details](images/org-20-adding-user-add-user-details-group.png)
+
+###7. When adding an existing user, after adding the user, you should go back to the Users tab, click on Edit for the user you just added, and assign groups from there. 
+
+![Update user groups](images/org-20-adding-user-edit-groups.png)
