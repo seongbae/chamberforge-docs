@@ -1,4 +1,5 @@
 site_name: ChamberForge
+site_dir: ../cfdocs/
 pages:
 - Home: index.md
 - Quickstart: quickstart-guide.md
@@ -11,8 +12,6 @@ pages:
 - 1-to-1s: one-to-one.md
 - Business Closed: business-closed.md
 - Reporting: reporting.md
-theme: 
-  name: readthedocs
-  custom_dir: mkdocs-rtd-lightbox
+theme: readthedocs
 markdown_extensions:
   - extra

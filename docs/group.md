@@ -16,6 +16,12 @@ If you are a paid subscriber and have created your organization, then you can us
 
 Click on the "Create new group" button and enter a name for your group.  After that, your group will be created and you will be automatically redirected to your group dashboard page.
 
+## Change Group Information
+
+You can change the name of your group from the Settings tab of group settings page.
+
+![Change group name](images/gr-03-group-change-name.png)
+
 ## Group Settings
 
 To manage your group such as changing name, adding industry information, or scheduling automated report, you can go to the Group Settings page to do so.  
@@ -24,51 +30,34 @@ To go to the Group Settings page, click on the small gear icon on top left hand 
 
 ![Group settings icon](images/gr-02-group-settings-icon.png)
 
-## Change Group Name
+## Meeting Details
 
-You can change the name of your group from the Settings tab of group settings page.
+When creating a group, you can add details on meetings.  This information will be used for setting up automated meetings and receiving RSVPs from guests.
 
-![Change group name](images/gr-03-group-change-name.png)
+## Automated Meeting Generation
 
-## Add to Organization
+Sometimes, you may want to create future meetings ahead in time to better organize and allow members to tag guests to a future meeting.  This requires you to manually create meetings one by one which can be repetitive and cumbersome work.  
 
-If you are a paid subscriber or you have been added to an organization by your organization administrator, you can see the Organization dropdown option.  This is if you want to add your group to your organization.  If you are on a trial plan or do not belong to an organization, you will not see this option.
+The Automated Meeting feature allows you to automatically generate meetings.  After providing the meeting details for your group, simple set a value for the Automatically generate future meetings field.  This field will be 0 by default, meaning you will be creating meeting entries manually.  If you provide a value greater than 0, then the system will start automatically generating future meetings for you.
 
-If you wish to add your group to an organization, choose the appropriate organization name from the dropdown and click on Save.
+![Auto-generate meetings](images/gr-auto-generate.jpg)
 
-![Activity report](images/gr-04-group-add-to-org.png)
+For example, let's say you set up your meeting with following details:
 
-## Configure Industry List
+* Meeting frequency: biweekly
+* Starting on: Second week
+* Meeting day: Tuesday
+* Meeting time: 9:30am
+* Automatically generate future meetings: 4 meetings
 
-When adding members and guests to a group, one of the fields is industry.  If you don't configure the Industry list, then you won't see any values under the Industry field dropdown as you add members and guests.
+This tells the system to always have 4 future meetings created.  At midnight everynight, the system will automatically gnerate meetings to ensure that there are always 4 meetings created in future.  So if today is August 24, 2019, the above configuration will generate following meeting entries for you:
 
-Industry is also used for reports.  So it is important that you configure and manage the Industry list properly.
+* 9:30am August 28, 2019 (next meeting after August 24th)
+* 9:30am September 11, 2019
+* 9:30am September 25, 2019
+* 9:30am October 9, 2019
 
-Depending on how your group is managed, you may or may not be able to edit the Industry list.  For example, if you manage your own group and your group does not belong to any organization, then you can manage the Industry list yourself.  If, on the other hand, your group belongs to an organzation, then the organization administrator is configures the Industry list for the entire orgnaization and group managers may not be able to change it.
-
-To configure the Industry list, click on the Industry tab and then Add Industry button.  Once a window comes up, enter industry one per line.  When done, click on Save and close the window.
-
-![Industry list](images/gr-05-add-industry.png)
-
-## Scheduled Report
-
-The Scheduled report allows users to have the reports sent out in email periodically.  You can schedule monthly, quarterly, semi-annually, and annually.  If set monthly, a report will go out on 1st of every month.  If set quarterly, it will go out on 1st of April (for January to March), 1st of July (for April to June), etc.
-
-The report will be generated in PDF format and included in an email as an attachment.
-
-You can have the scheduled report sent out to all members of a group, or you can add additional emails to have report sent out to those outside ChamberForge.  Or you can do both.
-
-To set up a schedule report, go to the group settings by clicking on the gear icon on top left menu.  Then click on the Scheduled Reports tab. Following describe what each field does:
-
-* To All Members - if this is checked, then all members of the group will receive the report
-* Additional Recipients - you can specify additional emails here if you want the report to be sent out to those not in the group
-* Frequency - you can set how often the report will go out
-* Subject - email subject
-* Attachment - select which type of report to automatically generate
-* Message - body to be included in email
-* Enable schedule report - you can turn on or off the schedule report by checking here
-
-![Scheduled report](images/rp-04-scheduled-report.png)
+You can set this to 8 meetings or 12 meetings. It's totally up to you.  And if your group meets regularly and you enable this feature, then you will never have to manually create meetings again.
 
 ## Delete Group
 

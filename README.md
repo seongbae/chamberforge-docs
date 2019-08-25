@@ -1,4 +1,4 @@
 # chamberforge-docs
 Documentation for ChamberForge
 
-This is documentation for ChamberForge CRM.
+This is documentation for ChamberForge.
