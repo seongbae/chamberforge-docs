@@ -1,62 +1,35 @@
-# Manage Organization
+# Organization
 
-In addition to simple reporting available from each group's dashboard screen, ChamberForge allows users to generate more advanced reports.  The reports help group organizers and association staff members to quickly see how their group is doing.
+An organization may have one or more groups in them.  If you set up an organization on ChamberForge, you can manage groups and members across the entire organization.  You can also create and manage groups.
 
+You must have either the administrator or staff role in order to access the Organization management screen.  If you do, you will see the organization name under the menus on top right-hand corner.
 
-## Create Organization
+## Manage Groups
 
-You can create an organization from your home screen after logging in.  Click on "Create new organization" button and give it a name.
+If you create a new group from the Organization settings page, you will go through the New Group Creation Wizard.  However, the newly created group will be under your organization.  
 
-## Create Groups
+You can also delete groups from this page.
 
-You can create groups - lead sharing groups or committees - within your organization by going to the organization settings page.  Click on the 3-gears icon on upper left corner to go into the organization settings page.
+## Add Members
 
-From here, you can click on the Groups tab and click "Add New" button to create a group.
+You can add new members to the organization.  Go to the Users tab and click the Add User button.  You can add using email and also assign a role.  Roles are:
 
-* Group name - name of your group
-* Type - choose from lead sharing group or committee
-* Organization - select the organization this group belongs to
+- **Administrator**: can manage the entire organization. Can add and remove members, create/delete groups, and assign group manager.  Can also handle payment-related settings.
+- **Staff**: has same access as administrator except payment settings.
+- **Member**: do not have any additional privileges other than just being in the organization.
 
-The difference between a lead sharing group and committee group type is a lead sharing group will allow you to track referrals, 1-to-1 meetings, and business closed.  A committee group does not have those but allows you to assign and track tasks.  Both group types allow you to manage members, guests, and meetings.
+[![Add New User](images/organization-add-user.png)](images/organization-add-user.png)
 
-## Update Industry
+## Remove Members
 
-When adding members and guests to a group, one of the fields is industry.  If you don't configure the Industry list, then you won't see any values under the Industry field dropdown as you add members and guests.
+You can remove members from your organization.  From the Users tab, just click on Remove button.  Removing a member from this screen will remove the member from all the groups the member belongs to within the organization.  On the other hand, if you remove a member from a group, the member may still be in the organization.  So if you remove a member from a group, make sure to remove entirely by removing from the organization as well.
 
-Industry is also used for reports.  So it is important that you configure and manage the Industry list properly.
+[![Add New User](images/organization-remove-users.png)](images/organization-remove-users.png)
 
-Depending on how your group is managed, you may or may not be able to edit the Industry list.  For example, if you manage your own group and your group does not belong to any organization, then you can manage the Industry list yourself.  If, on the other hand, your group belongs to an organzation, then the organization administrator is configures the Industry list for the entire orgnaization and group managers may not be able to change it.
+## Assign to Group
 
-To configure the Industry list, click on the Industry tab and then Add Industry button.  Once a window comes up, enter industry one per line.  When done, click on Save and close the window.
+You can assign members to groups.  Click on Edit for any member and then the plus sign (+) next to Group-level Access.  From here, you can select a group for the member and the level of access - the role - the member will have within the group.  It can be either manager or member role.  Members with manager role can add/remove members within the group, create meetings, and update guest among other things.
 
-![Industry list](images/gr-05-add-industry.png)
+> Please note that there are two levels of roles: organizational-level and group level.  For example, if you have any staff within the organization who will be assisting with managing of groups, then you'd want to give that user the Staff role within the organization but not any explicit access to the groups.  That user, by having the staff role at the organization level, will automatically have access to view and manage all the groups.
 
-## Adding Users
-
-To add other users to your organization, follow these steps:
-
-###1. Click on the 3-gears icon on upper left corner.
-
-![Click on gear icon](images/org-20-adding-user-click-gear-icon.png)
-
-###2. Go to the Users tab in your organization settings page. Click "Add New".
-
-![Click on users tab](images/org-20-adding-user-users-tab.png)
-
-###3. Search for the user with email to see if the user is already on ChamberForge.
-
-###4. If no user with given email is found, click on "Add New" to create a new user.
-
-![Add user details](images/org-20-adding-user-add-user-details.png)
-
-###5. If user is found, click on "Add [Name of User]"
-
-![User found](images/org-20-adding-user-user-found.png)
-
-###6. When creating a new user, you can assign groups that the user should belong to.
-
-![Add user details](images/org-20-adding-user-add-user-details-group.png)
-
-###7. When adding an existing user, after adding the user, you should go back to the Users tab, click on Edit for the user you just added, and assign groups from there. 
-
-![Update user groups](images/org-20-adding-user-edit-groups.png)
+[![Add New User](images/organization-assign-users.png)](images/organization-assign-users.png)

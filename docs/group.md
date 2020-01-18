@@ -1,38 +1,31 @@
 # Group
 
-One of the first things you should do as you get started with ChamberForge is setting up your group page.  After that, you can add group members, meetings, referrals, and so forth.
-
-This article walks you through creation and setting up of a group.
+One of the first things you should do as you get started with ChamberForge is setting up your group.  Once your group is created, you can add/invite members, create meetings, manage members and guests and so forth.
 
 ## Create a Group
 
-There are two ways to create a group: through home screen and through organization page. 
+To create a group, after logging in, go to the menus on top right and click on the Create a Group menu.  The wizard will walk you through the process and you can add various details about your group including name, description, when and where you meet.  Once the group is created, you will be taken to the group's dashboard page.  Below is what the dashboard screen looks like when a new group is created:
 
-If you are on a free or a trial plan, or if the organization you belong to has given you access to create groups, you can create a group from your home screen.  Home screen is the first screen you see after logging in.  You can also get to it by clicking on the logo on upper left hand.
-
-If you are a paid subscriber and have created your organization, then you can use the organization page to create a group.  For creating a group through the organization page, pleaes refer to the Organization documentation.
-
-![Create group](images/gr-01-create-group-screen.png)
+[![Create group](images/group-dashboard.png)](images/group-dashboard.png)
 
 Click on the "Create new group" button and enter a name for your group.  After that, your group will be created and you will be automatically redirected to your group dashboard page.
 
-## Change Group Information
+## Settings
 
-You can change the name of your group from the Settings tab of group settings page.
+***Reporting Type***
 
-![Change group name](images/gr-03-group-change-name.png)
+- **Within group only**: allow referrals and 1-to-1s only between group members to be reported
+- **Within organization only**: allow referrals and 1-to-1s between members from different groups - but under same larger organization - to be reported
+- **all**: allow members to report referrals and 1-to-1s with people outside the group and organization
 
-## Group Settings
 
-To manage your group such as changing name, adding industry information, or scheduling automated report, you can go to the Group Settings page to do so.  
+## Custom Fields
 
-To go to the Group Settings page, click on the small gear icon on top left hand corner.  Please note that the icon with one gear is for group settings and the icon with three gears is for organization settings.  Latter is only visible if you are a paid subscriber and have created an organization.
+Custom fields allow additional data to be collected from members when they report referrals or 1-to-1s.  
 
-![Group settings icon](images/gr-02-group-settings-icon.png)
+For example, you can add a dropdown list caleld "Referral Source" with values such as partner referral, customer referral, standard referral, online referral to allow your members to indicate the type of referral when reporting.  This additional information allows members to share more information and you can use them in the reports to gain additional insights.
 
-## Meeting Details
-
-When creating a group, you can add details on meetings.  This information will be used for setting up automated meetings and receiving RSVPs from guests.
+[![Group settings icon](images/group-custom-fields.png)](images/group-custom-fields.png)
 
 ## Automated Meeting Generation
 
@@ -40,7 +33,7 @@ Sometimes, you may want to create future meetings ahead in time to better organi
 
 The Automated Meeting feature allows you to automatically generate meetings.  After providing the meeting details for your group, simple set a value for the Automatically generate future meetings field.  This field will be 0 by default, meaning you will be creating meeting entries manually.  If you provide a value greater than 0, then the system will start automatically generating future meetings for you.
 
-![Auto-generate meetings](images/gr-auto-generate.jpg)
+[![Auto-generate meetings](images/group-meetings.png)](images/group-meetings.png)
 
 For example, let's say you set up your meeting with following details:
 
@@ -61,6 +54,6 @@ You can set this to 8 meetings or 12 meetings. It's totally up to you.  And if y
 
 ## Delete Group
 
-You can delete a group by going to the Delete tab within the Group settings page. 
+If you no longer need to maintain a group, you can delete the group by going to the Delete tab within the Group settings page.
 
-![Activity report](images/gr-06-delete-group.png)
+> Deleting a group will delete all the data except referrals.  Referral data is managed by giver and receiver.

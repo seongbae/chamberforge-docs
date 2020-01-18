@@ -1,17 +1,11 @@
-site_name: ChamberForge
+site_name: ChamberForge Documentation
 site_dir: ../cfdocs/
-pages:
+nav:
 - Home: index.md
-- Quickstart: quickstart-guide.md
+- Group: group.md
 - Organization: organization.md
-- Groups: group.md
-- Members: member.md
-- Meeting: meeting.md
-- Guests: guest.md
-- Referrals: referral.md
-- 1-to-1s: one-to-one.md
-- Business Closed: business-closed.md
 - Reporting: reporting.md
-theme: readthedocs
+- API: api.md
+theme: material
 markdown_extensions:
   - extra
