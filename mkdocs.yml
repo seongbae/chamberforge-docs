@@ -1,4 +1,4 @@
-site_name: ChamberForge
+site_name: ''
 site_dir: ../cfdocs/
 nav:
 - Home: index.md
@@ -8,7 +8,7 @@ nav:
 - API: api.md
 theme: 
   name: 'material'
-  logo: 'images/cf-logo-hammer.svg'
+  logo: 'images/cf-logo.png'
   custom_dir: 'materialcustom/'
   favicon: 'images/favicon.ico'
 extra:
