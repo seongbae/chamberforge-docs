@@ -7,6 +7,18 @@ nav:
 - Reporting: reporting.md
 - Webhooks: webhooks.md
 - API: api.md
-theme: material
+theme: 
+  name: 'material'
+  logo: 'images/cf-logo.png'
+  custom_dir: 'materialcustom/'
+  favicon: 'images/favicon.ico'
+extra:
+  social:
+    - type: 'facebook'
+      link: 'https://www.facebook.com/chamberforge/'
+    - type: 'youtube'
+      link: 'https://www.youtube.com/channel/UCaN5kSbbMWcMU4Nwk9ufSbA'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/chamberforge'
 markdown_extensions:
   - extra

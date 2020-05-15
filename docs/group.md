@@ -15,9 +15,12 @@ Click on the "Create new group" button and enter a name for your group.  After t
 ***Reporting Type***
 
 - **Within group only**: allow referrals and 1-to-1s only between group members to be reported
-- **Within organization only**: allow referrals and 1-to-1s between members from different groups - but under same larger organization - to be reported
-- **all**: allow members to report referrals and 1-to-1s with people outside the group and organization
+- **Within organization only**: allow referrals and 1-to-1s between members from different groups - but under same organization - to be reported
 
+***Guest Count***
+
+- **Count by entry**: when reporting guest count for members, count by number of guests entered into the system. 
+- **Count by attendance**: when reporting guest count for members, count by guest attendance.  With this option, a same guest can attend multiple meetings to a same grouop and the person who invited the guest each time will each receive a credit. 
 
 ## Custom Fields
 

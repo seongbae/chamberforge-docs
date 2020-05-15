@@ -1,3 +1,3 @@
 # API
 
-Coming soon
+API documentation coming soon
